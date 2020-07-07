@@ -1,0 +1,166 @@
+/* XL Device :1200px. */
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .features-right {
+        position: relative;
+        z-index: 1;
+        height: 510px;
+        top: 120px;
+    }
+    
+    .features-left-list {
+        width: 100%;
+        display: inline-flex;
+    }
+    
+    .features-icon {
+        float: left;
+        width: 15%;
+    }
+    
+    .features-details {
+        width: 85%;
+        float: right;
+    }
+    
+    }
+    
+    
+    /* MD Device :768px. */
+    @media (min-width: 768px) and (max-width: 991px) {
+    .features-right {
+        height: 400px;
+        margin-top: 50px;
+    }
+    
+    .features-right img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .home {
+        padding: 240px 0 200px 0;
+    }
+    .features-right {
+        height: 400px;
+        margin-top: 50px;
+    }
+    
+    .features-right img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .home {
+        padding: 240px 0 200px 0;
+    }
+    
+    }
+    
+    /* Extra small Device. */
+    @media (max-width: 767px) {
+    
+    .menu-top-bg .navbar a {
+        text-align: center;
+        margin: 0;
+    }
+    
+    .menu-top-bg .navbar a.cell {
+        font-size: 12px;
+    }
+        .home-content h1 {
+            font-size: 36px;
+        }
+    
+        .home-content p br {
+            display: none;
+        }
+    
+        .home {
+            padding: 200px 0 120px 0;
+        }
+    
+        .section-title h3 {
+            font-size: 36px;
+        }
+    
+        .section-padding-bottom {
+            padding-bottom: 100px;
+        }
+    
+        .section-padding-top {
+            padding-bottom: 100px;
+        }
+    
+        .section-title p br {
+            display: none;
+        }
+    
+        .service-item,
+        .blog-item {
+            margin-top: 30px;
+        }
+    
+        .service .section-title,
+        .blog .section-title {
+            padding-bottom: 20px;
+        }
+    
+        .features-right {
+            position: relative;
+            z-index: 1;
+            height: 400px;
+            top: 60px;
+        }
+    
+        .features-left-list {
+            width: 100%;
+            display: inline-flex;
+        }
+    
+        .features-icon {
+            float: left;
+            width: 15%;
+        }
+    
+        .features-details {
+            width: 85%;
+            float: right;
+        }
+    
+        .features-right img {
+            height: 100%;
+            width: 100%;
+        }
+    
+        .features {
+            margin-bottom: 70px;
+        }
+    
+        .section-padding-top {
+            padding-bottom: 0;
+        }
+    
+    }
+    
+    
+    
+    /* SM Small Device :550px. */
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+    
+    .menu-top-bg .navbar a {
+        text-align: center;
+        margin: 0;
+    }
+    .home-content h1 {
+        font-size: 50px;
+    }
+    
+    .home {
+        padding: 240px 0 200px 0;
+    }
+    
+    }
+    
+    
